@@ -22,24 +22,29 @@ anchor tag and class tag
     9. How many times can I use the same id on a page? 
     once
     10. What is a class? 
-
+it allows us to select individual elements through a special attribute
     11. What elements can I add a class to? 
+any class, but there are times where one will take precedence
     12. How many times can I use the same class on a page? 
     no limit, as many as you want
     13. How do I get my link to open in a new tab?
     14. What is the alt attribute in the image tag used for? 
     15. How do I reference an id?
+    use # before the id tag
     16. What is the difference between a section and a div
     one is semantic and gives meaning <section> and the other doesnt
     17. What is CSS used for? 
+    it is how you style the tags that you put in html
     18. How to we select an element? Example - every h2 on the page
     h2 {}
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    classes can be used multiple times. you'd use an id if a class isn't sufficient enough. You might use a class for section of a website like the main body
     20. How do we select classes in CSS?
     use a period . before the class name
     21. How do we select a p element with a single class of “human””?
     .human p {}
     22. What is a parent child selector? When would this be useful? 
+    this is helpful when you don't have a set of elements but you still want to style them individually. a parent is the beginning of the section, and a child is anything after that
     23. How do you select all links within a div with the class of sidebar?
     24. What is a pseudo selector?
     used when you may not hsave a set amount of elements, but you still want to 
@@ -58,7 +63,8 @@ anchor tag and class tag
     use the universal selector *
     30. How do I write a comment in CSS?
     command + ?
-    31. How do I find out what file I am in, when I am using the command line? 
+    31. How do I find out what file I am in, when I am using the command line?
+    pwd command 
     32. Using the command line - how do I see a list of files/folders in my current folder?
     enter ls
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
@@ -70,6 +76,21 @@ anchor tag and class tag
     36. What is the command we would use to push our repo up to github? 
     git push -u origin soni-leituala
     37. Walk me through Lambda's git flow. 
+    Go to the project repository
+Make sure you signed in to GitHub
+Press the “Fork” button. It’s near the top of the repository to the right
+Add your TLs as a collaborator. Go to Settings -> Manage Access and click “Invite Collaborator”. You can look up your TLs by their GitHub handles
+Double check that you forked correctly. The Repo should say <yourGitHubHandle>/<projectName> near the top. Then click the green “Clone or Download” button and copy the url. 
+Open up the terminal (Mac) or GitBash (PC) on your machine. 
+Enter the command `git clone <url>` with the url you copied. There is now a local copy of the codebase on your machine. You may enter `ls` and should see the listed. 
+Open that folder in your text editor of choice. 
+Checkout a new branch using `git checkout -b <firstname-lastname>`
+Complete the assignment, adding and committing as needed.
+Push your changes to the remote copy using `git push -u origin <firstname-firatname>`
+Click “New pull request” or the green “Compare & Pull request” button.
+Make sure the base repository is “<yourGitHubHandle>/<projectName>” NOT “LambdaSchool/<projectName>”
+Add your TLs as reviewers.
+Submit the request
 
 Stretch Questions
 
